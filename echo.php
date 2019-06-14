@@ -43,4 +43,5 @@ foreach ($client->parseEvents() as $event) {
             error_log('Unsupported event type: ' . $event['type']);
             break;
     }
+    ?>
 };
